@@ -1,4 +1,4 @@
-package com.example.dbExample;
+package com.example.dbExample.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
