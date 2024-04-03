@@ -28,4 +28,7 @@ public class User {
 
     @Column(name = "Password", nullable = false)
     private String password;
+
+    @Column(nullable = false)
+    private String authorities;
 }
