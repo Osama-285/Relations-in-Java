@@ -5,7 +5,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
-import com.example.dbExample.model.User;
 import com.example.dbExample.model.UserCredintials;
 import com.example.dbExample.payload.UserDTO;
 import com.example.dbExample.services.UserService;

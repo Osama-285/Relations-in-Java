@@ -1,10 +1,13 @@
 package com.example.dbExample.model;
 
+import java.util.List;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -31,4 +34,7 @@ public class UserCredintials {
 
     @Column(nullable = false)
     private String authorities;
+
+    @OneToMany(mappedBy = "user")
+    private List<Comment> comments;
 }
