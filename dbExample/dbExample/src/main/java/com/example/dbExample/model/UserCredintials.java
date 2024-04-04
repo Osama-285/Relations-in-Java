@@ -17,7 +17,7 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class UserCredintials {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
